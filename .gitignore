@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+.venv/
+ENV/
+venv/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE/project files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# mypy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# dotenv environment variables
+.env
+.env.*
+!.env.example
+
+# Docker
+*.pid
+*.log
+docker-compose.override.yml
+
+# Database
+*.sqlite3
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Redis/Elasticsearch/Postgres data (if you mount volumes locally)
+redis_data/
+elasticsearch_data/
+postgres_data/
+
+# Test files that should not be tracked
+/tests/__pycache__/
+/tests/.pytest_cache/ 
